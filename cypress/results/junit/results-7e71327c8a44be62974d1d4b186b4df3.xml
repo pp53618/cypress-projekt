@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.224" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2023-01-17T12:07:35" tests="0" file="cypress/integration/select.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E - Akcja wybrania opcji selekt" timestamp="2023-01-17T12:07:35" tests="1" time="10.054" failures="1">
+    <testcase name="E2E - Akcja wybrania opcji selekt Wybieranie wszystkich opcji" time="0.000" classname="Wybieranie wszystkich opcji">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `[class=&quot;_0ofwUT KVKCn3 DpImHu n-pMx8 cXrhYr reVeb9 _0xLoFW _78xIQ- LyRfpJ zvYeCP&quot;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `[class="_0ofwUT KVKCn3 DpImHu n-pMx8 cXrhYr reVeb9 _0xLoFW _78xIQ- LyRfpJ zvYeCP"]`, but never found it.
+    at SelectPage.get select [as select] (https://www.zalando.pl/__cypress/tests?p=cypress\integration\select.js:163:15)
+    at SelectPage.selectAllOption (https://www.zalando.pl/__cypress/tests?p=cypress\integration\select.js:167:10)
+    at Context.eval (https://www.zalando.pl/__cypress/tests?p=cypress\integration\select.js:134:25)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

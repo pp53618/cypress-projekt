@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-01-17T12:08:29.721Z",
+    "end": "2023-01-17T12:08:42.573Z",
+    "duration": 12852,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cb3735be-d848-428b-8b62-7fe2850a0a95",
+      "title": "",
+      "fullFile": "cypress/integration/wgrywaniePliku.js",
+      "file": "cypress/integration/wgrywaniePliku.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "bd970ba5-8f4f-4f44-bf8a-edf160fbffe1",
+          "title": "E2E - W   Wgrywanie pliku",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "wgrywanie pliku do inputa poczta WP",
+              "fullTitle": "E2E - W   Wgrywanie pliku wgrywanie pliku do inputa poczta WP",
+              "timedOut": null,
+              "duration": 8911,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://files.fm/?source=ads-pl&sourceAd=ads-pl&utm_source=ads-pl&utm_campaign=ads-pl&utm_term=ads-pl&gclid=CjwKCAiAnZCdBhBmEiwA8nDQxYGBHeCb7uxQRKwNwpyaaGDiucUfU3z5tNudM-qp1gL-jUGpEomAxRoCzwAQAvD_BwE\"); //cy.get(\"#file_select_button\").click();\ncy.get(\"#file_select_button\").click().attachFile(\"../fixtures/cropped-kotek.jpg\"); //.click({force: true});\ncy.get(\"span.filename\").should(\"contain\", \"cropped-kotek.jpg\");",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `span.filename`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `span.filename`, but never found it.\n    at Context.eval (https://files.fm/__cypress/tests?p=cypress\\integration\\wgrywaniePliku.js:106:29)",
+                "diff": null
+              },
+              "uuid": "39570422-810f-466b-a093-21316b32da0a",
+              "parentUUID": "bd970ba5-8f4f-4f44-bf8a-edf160fbffe1",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "39570422-810f-466b-a093-21316b32da0a"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 8911,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

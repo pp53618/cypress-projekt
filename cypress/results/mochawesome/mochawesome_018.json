@@ -1,0 +1,110 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-01-17T12:07:59.944Z",
+    "end": "2023-01-17T12:08:07.488Z",
+    "duration": 7544,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9027bf3d-f399-4724-a633-5e74b41eb95a",
+      "title": "",
+      "fullFile": "cypress/integration/triger.js",
+      "file": "cypress/integration/triger.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "c10ed6a6-0497-46c0-a0b9-511066bda746",
+          "title": "E2E - Skrolowanie / Najechanie",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Najechanie na dany element",
+              "fullTitle": "E2E - Skrolowanie / Najechanie Najechanie na dany element",
+              "timedOut": null,
+              "duration": 7350,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"/\"); //cy.get('[role=\"presentation\"][aria-label=\"Odzież\"]').trigger(\"focus\")\n//cy.get('[class=\"_0Qm8W1 u-6V88 FxZV-M pVrzNP\"]').eq(1).trigger(\"focus\")\n//cy.contains(\"Odzież\")\n//cy.get('span[class=\"_0Qm8W1 u-6V88 FxZV-M pVrzNP\"]').eq(1).trigger(\"focus\")\n//z-navicat-header_categoryOverlayContainer z-navicat-header_categoryOverlayContainer-open\ncy.get(\".z-navicat-header_categoryListElement\").eq(1).trigger(\"focus\");\ncy.get('div.A-NCMf a[href=\"/odziez-damska-sukienki/\"]').click();",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div.A-NCMf a[href=\"/odziez-damska-sukienki/\"]`, but never found it.",
+                "estack": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `div.A-NCMf a[href=\"/odziez-damska-sukienki/\"]`, but never found it.\n    at Context.eval (https://www.zalando.pl/__cypress/tests?p=cypress\\integration\\triger.js:109:8)",
+                "diff": null
+              },
+              "uuid": "903d0e5d-71c9-4a95-b9ec-213b68871966",
+              "parentUUID": "c10ed6a6-0497-46c0-a0b9-511066bda746",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "903d0e5d-71c9-4a95-b9ec-213b68871966"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 7350,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

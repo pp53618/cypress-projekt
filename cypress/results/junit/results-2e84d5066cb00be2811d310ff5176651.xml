@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="10.092" tests="3" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-17T12:06:11" tests="0" file="cypress/integration/api/pierwszyTestAPI.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E - Testy API" timestamp="2023-01-17T12:06:11" tests="3" time="9.971" failures="0">
+    <testcase name="E2E - Testy API Werefikacja tagów API" time="2.614" classname="Werefikacja tagów API">
+    </testcase>
+    <testcase name="E2E - Testy API Niepoprawne logowanie" time="1.622" classname="Niepoprawne logowanie">
+    </testcase>
+    <testcase name="E2E - Testy API Poprawne logowanie" time="1.928" classname="Poprawne logowanie">
+    </testcase>
+  </testsuite>
+</testsuites>

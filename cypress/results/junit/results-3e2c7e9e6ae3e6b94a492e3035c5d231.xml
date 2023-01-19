@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="9.703" tests="1" failures="2">
+  <testsuite name="Root Suite" timestamp="2023-01-16T13:32:09" tests="0" file="cypress/integration/klikniecie.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E - Akcje kliknięcia" timestamp="2023-01-16T13:32:09" tests="1" time="9.549" failures="2">
+    <testcase name="E2E - Akcje kliknięcia kliknięcie na element" time="0.000" classname="kliknięcie na element">
+      <failure message="Cypress detected a cross origin error happened on page load:
+
+  &gt; Permission denied to access property &quot;document&quot; on cross-origin object
+
+Before the page load, you were bound to the origin policy:
+
+  &gt; https://zalando.pl
+
+A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+
+A new URL does not match the origin policy if the &apos;protocol&apos;, &apos;port&apos; (if specified), and/or &apos;host&apos; (unless of the same superdomain) are different.
+
+Cypress does not allow you to navigate to a different origin URL within a single test.
+
+You may need to restructure some of your test code to avoid this problem.
+
+Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `cypress.json`.
+
+https://on.cypress.io/cross-origin-violation" type="CypressError"><![CDATA[CypressError: Cypress detected a cross origin error happened on page load:
+
+  > Permission denied to access property "document" on cross-origin object
+
+Before the page load, you were bound to the origin policy:
+
+  > https://zalando.pl
+
+A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+
+A new URL does not match the origin policy if the 'protocol', 'port' (if specified), and/or 'host' (unless of the same superdomain) are different.
+
+Cypress does not allow you to navigate to a different origin URL within a single test.
+
+You may need to restructure some of your test code to avoid this problem.
+
+Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `cypress.json`.
+
+https://on.cypress.io/cross-origin-violation
+onPageLoadErr@https://www.zalando.pl/__cypress/runner/cypress_runner.js:158512:76
+../driver/src/cypress/cy.ts/initialize/<@https://www.zalando.pl/__cypress/runner/cypress_runner.js:173129:15
+dispatch@https://www.zalando.pl/__cypress/runner/cypress_runner.js:113217:27
+../driver/node_modules/jquery/dist/jquery.js/</add/elemData.handle@https://www.zalando.pl/__cypress/runner/cypress_runner.js:113025:28
+From Your Spec Code:
+    ensureExistence@https://www.zalando.pl/__cypress/runner/cypress_runner.js:163964:13
+    ensureElExistence@https://www.zalando.pl/__cypress/runner/cypress_runner.js:163982:12
+    ensureExistence@https://www.zalando.pl/__cypress/runner/cypress_runner.js:151012:25
+    onFailFn@https://www.zalando.pl/__cypress/runner/cypress_runner.js:151052:11
+    tryCatcher@https://www.zalando.pl/__cypress/runner/cypress_runner.js:13022:23
+    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@https://www.zalando.pl/__cypress/runner/cypress_runner.js:10957:31
+    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://www.zalando.pl/__cypress/runner/cypress_runner.js:11014:18
+    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@https://www.zalando.pl/__cypress/runner/cypress_runner.js:11059:10
+    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@https://www.zalando.pl/__cypress/runner/cypress_runner.js:11135:18
+    _drainQueueStep@https://www.zalando.pl/__cypress/runner/cypress_runner.js:7729:12
+    _drainQueue@https://www.zalando.pl/__cypress/runner/cypress_runner.js:7722:24
+    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@https://www.zalando.pl/__cypress/runner/cypress_runner.js:7738:16
+    ../../node_modules/bluebird/js/release/async.js/</Async/this.drainQueues@https://www.zalando.pl/__cypress/runner/cypress_runner.js:7608:14
+]]></failure>
+    </testcase>
+    <testcase name="E2E - Akcje kliknięcia &quot;after all&quot; hook for &quot;kliknięcie na element&quot;" time="0.000" classname="&quot;after all&quot; hook for &quot;kliknięcie na element&quot;">
+      <failure message="Cypress command timeout of `4000ms` exceeded.
+
+Because this error occurred during a `after all` hook we are skipping all of the remaining tests." type="CypressError"><![CDATA[CypressError: Cypress command timeout of `4000ms` exceeded.
+
+Because this error occurred during a `after all` hook we are skipping all of the remaining tests.
+cypressErr@https://www.zalando.pl/__cypress/runner/cypress_runner.js:176336:18
+errByPath@https://www.zalando.pl/__cypress/runner/cypress_runner.js:176405:10
+../driver/src/cypress/mocha.ts/patchRunnableResetTimeout/Runnable.prototype.resetTimeout/this.timer<@https://www.zalando.pl/__cypress/runner/cypress_runner.js:178159:80
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="11.125" tests="1" failures="2">
+  <testsuite name="Root Suite" timestamp="2023-01-16T13:20:02" tests="0" file="cypress/integration/klikniecie.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E - Akcje kliknięcia" timestamp="2023-01-16T13:20:06" tests="1" time="7.491" failures="2">
+    <testcase name="E2E - Akcje kliknięcia kliknięcie na element" time="0.000" classname="kliknięcie na element">
+      <failure message="The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Loading chunk 5514 failed.
+(error: https://mosaic02.ztat.net/rnd/ng/5514/index-78eca1a348c1500fec83.js)
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="ChunkLoadError"><![CDATA[ChunkLoadError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Loading chunk 5514 failed.
+(error: https://mosaic02.ztat.net/rnd/ng/5514/index-78eca1a348c1500fec83.js)
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+d.f.j@https://mosaic02.ztat.net/rnd/ng/re-runtime-chunk/index-fc0ece950177bf35173f.js:1:7021
+d.e/<@https://mosaic02.ztat.net/rnd/ng/re-runtime-chunk/index-fc0ece950177bf35173f.js:1:1431
+d.e@https://mosaic02.ztat.net/rnd/ng/re-runtime-chunk/index-fc0ece950177bf35173f.js:1:1396
+y@https://mosaic02.ztat.net/rnd/ng/customer_shop-selector-view/index-5743065ec44243d3c598.js:1:42945
+]]></failure>
+    </testcase>
+    <testcase name="E2E - Akcje kliknięcia &quot;after all&quot; hook for &quot;kliknięcie na element&quot;" time="0.000" classname="&quot;after all&quot; hook for &quot;kliknięcie na element&quot;">
+      <failure message="Cypress detected a cross origin error happened on page load:
+
+  &gt; Permission denied to access property &quot;document&quot; on cross-origin object
+
+Before the page load, you were bound to the origin policy:
+
+  &gt; https://zalando.pl
+
+A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+
+A new URL does not match the origin policy if the &apos;protocol&apos;, &apos;port&apos; (if specified), and/or &apos;host&apos; (unless of the same superdomain) are different.
+
+Cypress does not allow you to navigate to a different origin URL within a single test.
+
+You may need to restructure some of your test code to avoid this problem.
+
+Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `cypress.json`.
+
+https://on.cypress.io/cross-origin-violation
+
+Because this error occurred during a `after all` hook we are skipping all of the remaining tests." type="CypressError"><![CDATA[CypressError: Cypress detected a cross origin error happened on page load:
+
+  > Permission denied to access property "document" on cross-origin object
+
+Before the page load, you were bound to the origin policy:
+
+  > https://zalando.pl
+
+A cross origin error happens when your application navigates to a new URL which does not match the origin policy above.
+
+A new URL does not match the origin policy if the 'protocol', 'port' (if specified), and/or 'host' (unless of the same superdomain) are different.
+
+Cypress does not allow you to navigate to a different origin URL within a single test.
+
+You may need to restructure some of your test code to avoid this problem.
+
+Alternatively you can also disable Chrome Web Security in Chromium-based browsers which will turn off this restriction by setting { chromeWebSecurity: false } in `cypress.json`.
+
+https://on.cypress.io/cross-origin-violation
+
+Because this error occurred during a `after all` hook we are skipping all of the remaining tests.
+onPageLoadErr@https://www.zalando.pl/__cypress/runner/cypress_runner.js:158512:76
+../driver/src/cypress/cy.ts/initialize/<@https://www.zalando.pl/__cypress/runner/cypress_runner.js:173129:15
+dispatch@https://www.zalando.pl/__cypress/runner/cypress_runner.js:113217:27
+../driver/node_modules/jquery/dist/jquery.js/</add/elemData.handle@https://www.zalando.pl/__cypress/runner/cypress_runner.js:113025:28
+From Your Spec Code:
+    ensureExistence@https://www.zalando.pl/__cypress/runner/cypress_runner.js:163964:13
+    ensureElExistence@https://www.zalando.pl/__cypress/runner/cypress_runner.js:163982:12
+    ensureExistence@https://www.zalando.pl/__cypress/runner/cypress_runner.js:151012:25
+    onFailFn@https://www.zalando.pl/__cypress/runner/cypress_runner.js:151052:11
+    tryCatcher@https://www.zalando.pl/__cypress/runner/cypress_runner.js:13022:23
+    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromiseFromHandler@https://www.zalando.pl/__cypress/runner/cypress_runner.js:10957:31
+    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise@https://www.zalando.pl/__cypress/runner/cypress_runner.js:11014:18
+    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromise0@https://www.zalando.pl/__cypress/runner/cypress_runner.js:11059:10
+    ../../node_modules/bluebird/js/release/promise.js/</module.exports/Promise.prototype._settlePromises@https://www.zalando.pl/__cypress/runner/cypress_runner.js:11135:18
+    _drainQueueStep@https://www.zalando.pl/__cypress/runner/cypress_runner.js:7729:12
+    _drainQueue@https://www.zalando.pl/__cypress/runner/cypress_runner.js:7722:24
+    ../../node_modules/bluebird/js/release/async.js/</Async.prototype._drainQueues@https://www.zalando.pl/__cypress/runner/cypress_runner.js:7738:16
+    ../../node_modules/bluebird/js/release/async.js/</Async/this.drainQueues@https://www.zalando.pl/__cypress/runner/cypress_runner.js:7608:14
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

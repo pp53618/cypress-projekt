@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="12.864" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-17T12:08:13" tests="0" file="cypress/integration/trigerSmyk.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E - Skrolowanie / Najechanie" timestamp="2023-01-17T12:08:13" tests="2" time="12.673" failures="0">
+    <testcase name="E2E - Skrolowanie / Najechanie Najechanie na dany element - Smyk" time="7.096" classname="Najechanie na dany element - Smyk">
+    </testcase>
+    <testcase name="E2E - Skrolowanie / Najechanie Skrolowanie do boxa Kategorie" time="1.597" classname="Skrolowanie do boxa Kategorie">
+    </testcase>
+  </testsuite>
+</testsuites>

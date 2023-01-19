@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="5.767" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-17T12:05:45" tests="0" file="cypress/integration/ZalandoTorby.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E - Akcje kliknięcie checkbox" timestamp="2023-01-17T12:05:45" tests="1" time="5.661" failures="0">
+    <testcase name="E2E - Akcje kliknięcie checkbox checkbox" time="4.718" classname="checkbox">
+    </testcase>
+  </testsuite>
+</testsuites>

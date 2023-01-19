@@ -1,0 +1,346 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 5,
+    "passes": 3,
+    "pending": 0,
+    "failures": 2,
+    "start": "2023-01-16T13:27:36.006Z",
+    "end": "2023-01-16T14:12:20.825Z",
+    "duration": 31190,
+    "testsRegistered": 5,
+    "passPercent": 60,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "2972359b-d4c3-4d13-977c-a7b523d3acb1",
+      "title": "",
+      "fullFile": "cypress/integration/klikniecie.js",
+      "file": "cypress/integration/klikniecie.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "be33d466-81d6-4001-bcde-e0b8e10790fc",
+          "title": "E2E - Akcje kliknięcia",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "kliknięcie na element",
+              "fullTitle": "E2E - Akcje kliknięcia kliknięcie na element",
+              "timedOut": null,
+              "duration": 7815,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"/\");\ncy.get(\".z-navicat-header_navToolItem-wishlist\").click();\ncy.get('[class=\"b69iQl _5Yd-hZ\"]').eq(0).click({\n  force: true\n}); //cy.get('[aria-hidden=\"true\"]').eq(1).click();",
+              "err": {},
+              "uuid": "2f884d72-c863-4984-9829-b7b1a529a296",
+              "parentUUID": "be33d466-81d6-4001-bcde-e0b8e10790fc",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2f884d72-c863-4984-9829-b7b1a529a296"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7815,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "ed4a0250-3516-4b93-92bc-5d19c76bc6dc",
+      "title": "",
+      "fullFile": "cypress/integration/klikniecie.js",
+      "file": "cypress/integration/klikniecie.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "75173a90-224f-4c33-a51b-242143aa302f",
+          "title": "E2E - Akcje kliknięcia",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "kliknięcie na element",
+              "fullTitle": "E2E - Akcje kliknięcia kliknięcie na element",
+              "timedOut": null,
+              "duration": 4116,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"/\");\ncy.get(\".z-navicat-header_navToolItem-wishlist\").click();\ncy.get('[class=\"b69iQl _5Yd-hZ\"]').eq(0).click({\n  force: true\n}); //cy.get('[aria-hidden=\"true\"]').eq(1).click();",
+              "err": {
+                "message": "CypressError: Cypress command timeout of `4000ms` exceeded.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
+                "estack": "CypressError: Cypress command timeout of `4000ms` exceeded.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\ncypressErr@https://www.zalando.pl/__cypress/runner/cypress_runner.js:176336:18\nerrByPath@https://www.zalando.pl/__cypress/runner/cypress_runner.js:176405:10\n../driver/src/cypress/mocha.ts/patchRunnableResetTimeout/Runnable.prototype.resetTimeout/this.timer<@https://www.zalando.pl/__cypress/runner/cypress_runner.js:178159:80\n",
+                "diff": null
+              },
+              "uuid": "e25df63e-fe83-422d-9193-37a2f1cd9385",
+              "parentUUID": "75173a90-224f-4c33-a51b-242143aa302f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "e25df63e-fe83-422d-9193-37a2f1cd9385"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 4116,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "e3b5ec38-9045-4184-92fa-7131e390c299",
+      "title": "",
+      "fullFile": "cypress/integration/klikniecie.js",
+      "file": "cypress/integration/klikniecie.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "3a62a250-e61c-4323-898a-0aa089068770",
+          "title": "E2E - Akcje kliknięcia",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "kliknięcie na element",
+              "fullTitle": "E2E - Akcje kliknięcia kliknięcie na element",
+              "timedOut": null,
+              "duration": 7121,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"/\");\ncy.get(\".z-navicat-header_navToolItem-wishlist\").click();\ncy.get('[class=\"b69iQl _5Yd-hZ\"]').eq(0).click({\n  force: true\n}); //cy.get('[aria-hidden=\"true\"]').eq(1).click();",
+              "err": {},
+              "uuid": "917090de-955a-4797-aa8d-6793d5b0b565",
+              "parentUUID": "3a62a250-e61c-4323-898a-0aa089068770",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "917090de-955a-4797-aa8d-6793d5b0b565"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7121,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "13b20283-23d7-4007-b57a-28946dd1b14d",
+      "title": "",
+      "fullFile": "cypress/integration/klikniecie.js",
+      "file": "cypress/integration/klikniecie.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9ae8dbdd-a87f-40d6-9d06-8c273f700fb6",
+          "title": "E2E - Akcje kliknięcia",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "kliknięcie na element",
+              "fullTitle": "E2E - Akcje kliknięcia kliknięcie na element",
+              "timedOut": null,
+              "duration": 8010,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"/\");\ncy.get(\".z-navicat-header_navToolItem-wishlist\").click();\ncy.get('[class=\"b69iQl _5Yd-hZ\"]').eq(0).click({\n  force: true\n}); //cy.get('[aria-hidden=\"true\"]').eq(1).click();",
+              "err": {},
+              "uuid": "1cd3ecc0-4b61-4b48-a760-7c11bc640b06",
+              "parentUUID": "9ae8dbdd-a87f-40d6-9d06-8c273f700fb6",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "1cd3ecc0-4b61-4b48-a760-7c11bc640b06"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8010,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "91340547-0731-44e4-a719-bcc05685dc2a",
+      "title": "",
+      "fullFile": "cypress/integration/klikniecie.js",
+      "file": "cypress/integration/klikniecie.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "32bbd4bb-ce03-4965-b04c-72cc8cb4ea07",
+          "title": "E2E - Akcje kliknięcia",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "kliknięcie na element",
+              "fullTitle": "E2E - Akcje kliknięcia kliknięcie na element",
+              "timedOut": null,
+              "duration": 4128,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"/\");\ncy.get(\".z-navicat-header_navToolItem-wishlist\").click();\ncy.get('[class=\"b69iQl _5Yd-hZ\"]').eq(0).click({\n  force: true\n}); //cy.get('[aria-hidden=\"true\"]').eq(1).click();",
+              "err": {
+                "message": "CypressError: Cypress command timeout of `4000ms` exceeded.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.",
+                "estack": "CypressError: Cypress command timeout of `4000ms` exceeded.\n\nBecause this error occurred during a `after all` hook we are skipping all of the remaining tests.\ncypressErr@https://www.zalando.pl/__cypress/runner/cypress_runner.js:176336:18\nerrByPath@https://www.zalando.pl/__cypress/runner/cypress_runner.js:176405:10\n../driver/src/cypress/mocha.ts/patchRunnableResetTimeout/Runnable.prototype.resetTimeout/this.timer<@https://www.zalando.pl/__cypress/runner/cypress_runner.js:178159:80\n",
+                "diff": null
+              },
+              "uuid": "493a2b8e-85b2-4893-9a1f-b4f1c0a74419",
+              "parentUUID": "32bbd4bb-ce03-4965-b04c-72cc8cb4ea07",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "493a2b8e-85b2-4893-9a1f-b4f1c0a74419"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 4128,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

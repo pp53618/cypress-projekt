@@ -1,0 +1,130 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 1,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-01-17T12:05:56.543Z",
+    "end": "2023-01-17T12:06:00.609Z",
+    "duration": 4066,
+    "testsRegistered": 2,
+    "passPercent": 50,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c8e368b9-1459-4d88-9183-c9d1c5ce3f7f",
+      "title": "",
+      "fullFile": "cypress/integration/alerty.js",
+      "file": "cypress/integration/alerty.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7a20a728-b4dd-4f8e-afa4-145dfa64fd29",
+          "title": "E2E - Alerty",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "alerty",
+              "fullTitle": "E2E - Alerty alerty",
+              "timedOut": null,
+              "duration": 606,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"https://testowanie-oprogramowania.pl/lekcje/alerty/\");\n_alertPage.default.clickOnBtnAlert1(); //cy.get(\"#alert\").click();\n\n_alertPage.default.verifyAlertText(\"TestowaTestowa\"); // cy.on(\"window:alert\", tresc => {\n//     expect(tresc).to.equal(\"Przykładowa treść alertu\")\n//})",
+              "err": {
+                "message": "AssertionError: The following error originated from your application code, not from Cypress.\n\n  > expected 'Przykładowa treść alertu' to equal 'TestowaTestowa'\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application",
+                "estack": "AssertionError: The following error originated from your application code, not from Cypress.\n\n  > expected 'Przykładowa treść alertu' to equal 'TestowaTestowa'\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n\nhttps://on.cypress.io/uncaught-exception-from-application\n    at $Cy.eval (https://testowanie-oprogramowania.pl/__cypress/tests?p=cypress\\integration\\alerty.js:184:24)",
+                "diff": "- '\\'Przykładowa treść alertu\\''\n+ '\\'TestowaTestowa\\''\n"
+              },
+              "uuid": "2c4958cc-6fdf-47e0-8c7d-f4308925dbac",
+              "parentUUID": "7a20a728-b4dd-4f8e-afa4-145dfa64fd29",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Alert confirm",
+              "fullTitle": "E2E - Alerty Alert confirm",
+              "timedOut": null,
+              "duration": 125,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_alertPage.default.clickOnBtnAlert2(); // cy.get(\"#alert-confirm\").click();\n\n_alertPage.default.verifyAlertConfirmText(); // cy.on(\"window:confirm\", tresc =>{\n//     expect(tresc).to.equal(\"Zaakceptuj aby kontynuować!\")\n// })\n\n_alertPage.default.acceptAlert(); //cy.on(\"window:confirm\", () => false)",
+              "err": {},
+              "uuid": "4c760397-5f1c-4c57-b425-82130a7359dd",
+              "parentUUID": "7a20a728-b4dd-4f8e-afa4-145dfa64fd29",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "4c760397-5f1c-4c57-b425-82130a7359dd"
+          ],
+          "failures": [
+            "2c4958cc-6fdf-47e0-8c7d-f4308925dbac"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 731,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

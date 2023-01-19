@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="3.651" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-01-17T12:07:27" tests="0" file="cypress/integration/lokalizatory.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="E2E - Lesson" timestamp="2023-01-17T12:07:27" tests="1" time="3.524" failures="0">
+    <testcase name="E2E - Lesson Lokalizatory część 2" time="3.304" classname="Lokalizatory część 2">
+    </testcase>
+  </testsuite>
+</testsuites>

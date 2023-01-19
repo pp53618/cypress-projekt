@@ -1,0 +1,106 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2023-01-17T12:07:27.345Z",
+    "end": "2023-01-17T12:07:30.996Z",
+    "duration": 3651,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c426b508-d4dc-405b-b26f-9007b97ed105",
+      "title": "",
+      "fullFile": "cypress/integration/lokalizatory.js",
+      "file": "cypress/integration/lokalizatory.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "0d18e9c8-2759-4833-b041-787447d9d9c5",
+          "title": "E2E - Lesson",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Lokalizatory część 2",
+              "fullTitle": "E2E - Lesson Lokalizatory część 2",
+              "timedOut": null,
+              "duration": 3304,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"/\");\ncy.contains(\"Zapisz mnie\"); // cy.contains('[type=\"submit\"]', 'submit')\ncy.get(\"li\").parents(\"#z-navicat-header-root\").find(\"li\").eq(0);\ncy.get(\"li\").parents(\"#z-navicat-header-root\").find(\"li\").contains(\"Kobiety\");",
+              "err": {},
+              "uuid": "ee53033d-1106-4900-909f-559376488e14",
+              "parentUUID": "0d18e9c8-2759-4833-b041-787447d9d9c5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ee53033d-1106-4900-909f-559376488e14"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3304,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
